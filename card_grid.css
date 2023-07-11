@@ -1,0 +1,225 @@
+body{
+    margin: 0%;
+}
+.nav-item:hover{
+    text-decoration: underline blueviolet 2px ;
+}
+.nav-item a:hover{
+    color: blueviolet;
+}
+
+/* carousel */
+
+/* .carousel-item{
+    height: 450px;
+} */
+.imageheading{
+    margin-top: -44%;
+    font-size: 45px;
+}
+.carousel-caption{
+    padding: 2px; text-align: justify;
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+#gridbtn:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 3px rgb(94, 6, 138) solid;  
+}
+
+#gridbtn{
+    background-color: rgb(94, 6, 138);
+    border-color: rgb(94, 6, 138);
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+#firstcontainer:hover{
+    transition:0.5s;
+    box-shadow: 0 4px 8px 0 rgb(234, 234, 234), 0 6px 20px 0 rgba(106,104,0.45);
+    transform: scale(1.1);
+}
+#gridcard{
+    width: 100%;
+}
+.card{
+    border: none;
+    border-radius: 0%;
+}
+.carddecor:hover{
+    transition:0.5s;
+    box-shadow: 0 4px 8px 0 rgb(234, 234, 234), 0 6px 20px 0 rgba(106,104,0.45);
+    transform: scale(1.0);
+}
+
+@media(max-width:700px){
+    .col-sm-12 .col-lg-5 {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:375px){
+    .col-lg-5{
+     padding-right: 9px;
+     text-align: center;
+     
+ 
+    } }
+    @media(max-width:500px){
+        .col-lg-5{
+            padding-right: 45px;
+         text-align: center;
+        } }
+   
+
+        @media(max-width: 820px){
+
+
+            .hero-slider-content > h1 {
+            font-size: 15px;
+            line-height: 25px;
+            padding-bottom: 5px;
+        }}
+        
+        
+        @media(max-width: 820px){
+        
+        
+        .hero-slider-content > p {
+        font-size: 10px;
+        line-height: 20px;
+        padding-bottom: 5px;
+        font-weight: 500;
+            color: #fff;}}
+        
+            @media(max-width: 820px){
+        
+        
+                .hero-slider-content > a{
+                    display: none;
+
+                }   } 
+
+
+
+
+
+                @media(max-width: 529px){
+
+
+                    .hero-slider-content > h1 {
+                    font-size: 15px;
+                    line-height: 25px;
+                    padding-bottom: 5px;
+                }}
+                
+                
+                @media(max-width: 529px){
+                
+                
+                .hero-slider-content > p {
+                font-size: 10px;
+                line-height: 20px;
+                padding-bottom: 5px;
+                font-weight: 500;
+                    color: #fff;}}
+                
+                    @media(max-width: 529px){
+                
+                
+                        .hero-slider-content > a{
+                            display: none;
+        
+                        }   } 
+
+
+                        @media(max-width: 416px){
+
+
+                            .hero-slider-content > h1 {
+                            font-size: 10px;
+                            line-height: 13px;
+                            padding-bottom: 0px;
+                        }}
+                        
+                        
+                        @media(max-width: 416px){
+                        
+                        
+                        .hero-slider-content > p {
+                        font-size: 9px;
+                        line-height: 11px;
+                        padding-bottom: 0px;
+                        font-weight: 500;
+                            color: #fff;}}
+                        
+                            @media(max-width: 416px){
+                        
+                        
+                                .hero-slider-content > a{
+                                    display: none;
+                
+                                }   } 
+
+
+
+
+                                @media(max-width: 376px){
+
+
+                                    .hero-slider-content > h1 {
+                                    font-size: 10px;
+                                    line-height: 13px;
+                                    padding-bottom: 0px;
+                                }}
+                                
+                                
+                                @media(max-width: 376px){
+                                
+                                
+                                .hero-slider-content > p {
+                                font-size: 6px;
+                                line-height: 11px;
+                                padding-bottom: 5px;
+                                font-weight: 500;
+                                    color: #fff;}}
+                                
+                                    @media(max-width: 376px){
+                                
+                                
+                                        .hero-slider-content > a{
+                                            display: none;
+                        
+                                        }   } 
+
+                                        @media(max-width: 395px){
+
+
+                                            .hero-slider-content > h1 {
+                                            font-size: 11px;
+                                            line-height: 13px;
+                                            padding-bottom: 0px;
+                                        }}
+                                        
+                                        
+                                        @media(max-width: 395px){
+                                        
+                                        
+                                        .hero-slider-content > p {
+                                        font-size: 6px;
+                                        line-height: 10px;
+                                        padding-bottom: 0px;
+                                        font-weight: 300;
+                                            color: #fff;}}
+                                        
+                                            @media(max-width: 395px){
+                                        
+                                        
+                                                .hero-slider-content > a{
+                                                    display: none;
+                                
+                                                }   } 
